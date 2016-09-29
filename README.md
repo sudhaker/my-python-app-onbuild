@@ -21,14 +21,6 @@ $ cd my-python-app-onbuild/
 
 ```
 $ docker rmi -f "$(basename $(pwd))"
-Untagged: my-python-app-onbuild:latest
-Deleted: sha256:b802abf729fb4daf3d402f9d67cc186b64149efeaf1bd5821f2ac1ac85dfe21d
-Deleted: sha256:65aa241f2625ffadd53acf3845650f1e852b242bb42c1368683b7736adb30bba
-Deleted: sha256:60532329c19bf53697cee6072dbf2cac3989357d52da2218dd40ae465370245c
-Deleted: sha256:69db3c4b3b3b8d8edbfead2cdba8bac0e3ee4739e20b2236f5e437ef0d6cda7f
-Deleted: sha256:8d422d9e1bcc8b01cb8a0db4a0d8a9187d8f30152b06a33b7883554743f89dda
-Deleted: sha256:e155170a17fb6fbfab874b2372b0248eecdf131ac3e59d1f2ebd26977a7719b5
-Deleted: sha256:dc87c330da9c8e74b7d45db18470e013577002a3926e87b870cf0b7dd6aef7ce
 ```
 
 ```
@@ -77,4 +69,4 @@ $ docker run --rm -p 8080:8080 "$(basename $(pwd))"
 192.168.0.3 - - [28/Sep/2016 16:33:39] "GET / HTTP/1.1" 200 -
 ```
 
-** Enjoy! **
+**Enjoy!**
